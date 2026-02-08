@@ -47,6 +47,7 @@ export function checkPasswordStrength(password) {
       count++
       lowercase = true
       
+      
     }
     if(ascii>=48 && ascii<=57 && number == false)  {
       count++
